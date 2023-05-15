@@ -26,7 +26,7 @@
     evt.currentTarget.className += " active";
   }  
 </script>
-  
+
   
   
   
@@ -39,12 +39,18 @@
   </div>
     <link rel="stylesheet"  href="devhtml.css">
 
+    <script src="file-system-api.js"></script>
+<button onclick="init()">
+  open file
+</button>  
 
-        <button  onclick="openFile()" draggable="true" class=" formatbutton btnstyl drag">OPEN</button>
-        <button  onclick="saveFile()" draggable="true" class=" formatbutton btnstyl drag">SAVE</button>
-        <button  onclick="saveFileAs()" draggable="true" class=" formatbutton btnstyl drag">SAVE AS</button>
+<button onclick="save()">
+  save file
+</button> 
 
-
+<button onclick="saveAs()">
+  saveAs file
+</button> 
 
 
 <div class="tab">
