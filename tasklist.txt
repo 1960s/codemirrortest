@@ -1,0 +1,7 @@
+keep a certain number of lines
+prevent default on enter
+down + home buttons
+prevent backspace from removing any newlines \n
+vertical number gutters, make top row numbers and static on scroll
+excel for editing
+add on change event for teditor
